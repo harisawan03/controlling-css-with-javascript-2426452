@@ -9,4 +9,5 @@ const targetSheet = styleSheetsArray.find((styleSheet) => {
     }
   }
 });
-console.log(targetSheet);
+console.log(targetSheet.cssRules[0].style.transition);
+
